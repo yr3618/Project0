@@ -1,0 +1,35 @@
+.Marv {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  background-color: #20B2AA;
+  text-align: center; }
+
+.Intro {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold; }
+
+div ul {
+  color: #20B2AA; }
+
+.o, .l, .p {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  text-align: center; }
+
+.o {
+  background-color: #f7b305; }
+
+.l {
+  background-color: #f59dcd; }
+
+.p {
+  background-color: #29cc16; }
+
+/*# sourceMappingURL=var.css.map */

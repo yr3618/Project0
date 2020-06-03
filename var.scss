@@ -1,0 +1,50 @@
+$colorlogo: #20B2AA;
+$colorlist: #20B2AA;
+
+.Marv {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  background-color: $colorlogo;
+  text-align: center;
+}
+
+.Intro{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+div {
+
+    ul {
+        color: $colorlist;
+    }
+}
+
+%newproducts {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.o {
+    @extend %newproducts;
+    background-color: #f7b305;
+}
+
+.l {
+    @extend %newproducts;
+    background-color: #f59dcd;
+}
+
+.p {
+    @extend %newproducts;
+    background-color: #29cc16;
+}
